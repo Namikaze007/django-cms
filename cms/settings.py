@@ -158,10 +158,10 @@ EMAIL_HOST_USER = ''
 EMAIL_HOST_PASSWORD = ''
 
 
-# AWS_ACCESS_KEY_ID = os.getenv('AMZ_S3_ID')
-# AWS_SECRET_ACCESS_KEY = os.getenv('AMZ_S3_KEY')
-# AWS_STORAGE_BUCKET_NAME = os.getenv('AMZ_NAME')
-# AWS_S3_FILE_OVERWRITE = False
-# AWS_DEFAULT_ACL = None
-# DEFAULT_FILE_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
-# STATICFILES_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
+AWS_ACCESS_KEY_ID = os.getenv('AMZ_S3_ID')
+AWS_SECRET_ACCESS_KEY = os.getenv('AMZ_S3_KEY')
+AWS_STORAGE_BUCKET_NAME = os.getenv('AMZ_NAME')
+AWS_S3_FILE_OVERWRITE = False
+AWS_DEFAULT_ACL = None
+DEFAULT_FILE_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
+STATICFILES_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'

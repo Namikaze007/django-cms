@@ -48,7 +48,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'accounts.apps.AccountsConfig',
     'widget_tweaks',
-    'django_filters',
+#     'django_filters',
     'storages',
 ]
 

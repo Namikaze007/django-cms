@@ -34,8 +34,8 @@ SECRET_KEY = os.getenv('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['django-cms-production-8187.up.railway.app', '127.0.0.1']
-CSRF_TRUSTED_ORIGINS = ['https://web-production-3640.up.railway.app']
+ALLOWED_HOSTS = [] #'django-cms-production-8187.up.railway.app', '127.0.0.1'
+# CSRF_TRUSTED_ORIGINS = ['https://web-production-3640.up.railway.app']
 
 # Application definition
 
